@@ -1,0 +1,28 @@
+- Node js adalah runtime library js yang memungkinkan javascript di eksekusi diluar browser
+- Asynchronus,Non-blocking, single thread
+- ilustrasi seperti waiters di restoran yang mungkin bisa menghandel banyak meja dengan menanyai pesan apa dahulu tanpa menunggu pesanan 1 selesai
+- REPL Read evaluate print loop cara eksekusi node js dari terminal
+
+#REPL
+-adalah fitur untuk membaca mengevaluasi dan looping 
+-digunakan untuk eksekusi program di terminal dan debugging
+
+#MODULES
+- Modules adalah sekumpulan code yang dapat digunakan kembali, dengan antarmuka yang terdefinisi
+- Node Modules fungsionaliatas simpel atau kompleks didalam sebuah file js yang dapat kita gunakan kembali pada aplikasi node.js
+- Tiap modul di dalam node js memiliki konteks nya masing-masing tidak bisa saling tercampur dalam konteks global 
+1. Core Modules : MOdule builtin yang dimiliki nodejs
+2. Local Modules : MOdul yang kita bikin sendiri sama intinya 2 files. PErlu mengekspor dan require
+3. Third Party Modules : module yang dibikin orang lain atau NPM node package manager
+require() : fungsi require mencari modul dengan urutan sbb
+a. ada ga core Modules
+b. file atau direktori(./)
+c. akan dicek folder 'node_modules'
+
+#NPM
+Node package manager
+1. Inisialisasi package biar terbaca di npm 
+2. Ikutin langkah-langkah 
+3. nanti bakalan dapat package.json
+/Kalau mau ngerun script pake node start / node test
+/Kalau perintah di package.json bukan start atau test maka kalau mau manggil dari cli harus pake node run <namascript>
